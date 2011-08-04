@@ -10,7 +10,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/pilmann-oksystem-cz/HelloMaven.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/pilmann-oksystem-cz/HelloMaven.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:pilmann-oksystem-cz/HelloMaven.git</developerConnection>
     <url>https://github.com/pilmann-oksystem-cz/HelloMaven.git</url>
   </scm>
 
