@@ -1,3 +1,4 @@
+
 package com.mycompany.app;
 
 /**
@@ -11,3 +12,5 @@ public class App
         System.out.println( "Hello World!" );
     }
 }
+=======
+package com.mycompany.app;
