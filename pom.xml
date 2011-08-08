@@ -41,12 +41,23 @@
             <goals>
               <goal>create</goal>
             </goals>
+	        <configuration>
+	          <doCheck>true</doCheck>
+	          <doUpdate>true</doUpdate>
+	          <getRevisionOnlyOnce>false</getRevisionOnlyOnce>
+	          <useLastCommittedRevision>true</useLastCommittedRevision>
+	          <revisionOnScmFailure>NA</revisionOnScmFailure>
+	        </configuration>
           </execution>
         </executions>
         <configuration>
-          <doCheck>true</doCheck>
-          <doUpdate>true</doUpdate>
+          <doCheck>false</doCheck>
+          <doUpdate>false</doUpdate>
+          <getRevisionOnlyOnce>false</getRevisionOnlyOnce>
+          <useLastCommittedRevision>true</useLastCommittedRevision>
+          <revisionOnScmFailure>NA</revisionOnScmFailure>
         </configuration>
+        
       </plugin>
     </plugins>
   </build>
